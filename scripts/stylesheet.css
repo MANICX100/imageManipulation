@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: Lucida Sans;
+	font-size: 14px;
+	color: black;
+	background-color: #D1CDCF;
+}
+p{
+margin:0px 0px 1em 0px;
+}
+img{
+float:right;
+margin:0 45px;
+}
+embed{
+float:right;
+margin:0 45px;
+}
+#container
+{
+  position: relative; 
+  width: 940px;
+  margin: auto;
+}
+
+#cover h1
+{
+position:absolute;
+text-align:right;
+font-size:18px;
+color:green;
+right:10px;
+top:180px;
+}
+
+
+#cover h2
+{
+position:absolute;
+text-align:right;
+font-size:16px;
+color:white;
+right:10px;
+top:215px;
+}
+
+#cover
+{
+background-image:url(../images/main.jpg);
+background-repeat:no-repeat;
+height:354px;	
+}
+
+#navbar
+{
+background-color:#ae1;
+margin:0;
+}
+
+#content
+{
+background-color:#FFF;
+padding-left:10px;
+padding-right:10px;
+}
+
+a,a:visited
+{
+color:#752670;
+font-weight:bold;
+}
+
+#navbar ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+}
+
+#navbar ul .navlink {
+	display: inline-block;
+}
+
+#navbar a,#navbar a:visited {
+	width: 150px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color:#3C3504;
+	font-weight: bold;
+	padding-top: 16px;
+	font-size: 18px;
+}
+
+#navbar a:hover{
+	color:#1B59E0;
+}
+#R{
+color:red;
+}
+#G{
+color:green;
+}
+#B{
+color:blue;
+}
+
+footer{
+position:fixed;
+bottom:0;
+right:0;
+text-align:right;
+font-size:10px;
+}
+header{
+position:fixed;
+text-align:left;
+font-size:10px;
+}
+.subnav{
+position:relative;
+
+}
+.subnav ol{
+position:absolute;
+display:none;
+left:0;
+
+
+}
+.subnav:hover ol{
+display: block;
+background-color:#ae1;
+}
+
+.animatable{
+-webkit-transition:-webkit-transform 2s ease;
+transition:transform 2s ease;
+display: inline-block;
+}
+.scale.animate{
+-webkit-transform:scale(4);
+transform:scale(4);
+}
+.rotate.animate{
+-webkit-transform:rotate(90deg);
+transform:rotate(90deg);
+
+}
+.reflect.animate{
+-webkit-transform:scaleX(-1);
+transform:scaleX(-1);
+}
+.clearfix{
+clear:both;
+}
+.SVG{
+float:left;
+height:247px;
+}
+button{
+position:fixed;
+text-align:right;
+top:0;
+right:0;
+}

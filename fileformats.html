@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<head>
+<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+<link rel="stylesheet" type="text/CSS" href="scripts/stylesheet.CSS" />
+<title>Digital Image resolution</title>
+<script type="text/javascript" src="scripts/browsercheck.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script> 
+</head>
+<body>
+<header>
+<h4>Student iD: N0443740</h4>
+</header>
+<div id="container">
+		<div id="cover">
+        	<h1>The world of Digital Images</h1>
+            <h2>A website by </h2>
+        </div>
+			<nav>
+        <div id="navbar">
+        	<ul>
+            	<li class="navlink"><a href="index.html">Home</a></li>
+				<li class="navlink"><a href="manipulations.html">Manipulations</a></li>
+                <li class="navlink"><a href="resolution.html">Resolution</a></li>
+                <li class="navlink"><a href="transformations.html">Transformations</a></li>
+                <li class="navlink subnav"><a href="#">File details</a>
+				<ol>
+                <li class="navlink"><a href="compression.html">Compression</a></li>
+				<li class="navlink"><a href="fileformats.html">File formats</a></li>
+				</ol></li>
+              <li class="navlink"><a href="references.html">References</a></li>
+            </ul>
+        </div>
+		</nav>
+<button style="background:#eeeeee  
+ url(http://vozme.com/img/paper_sound32x32.gif) 
+ no-repeat left center; 
+ min-height: 35px; 
+ font-size:70%; padding:4px 4px 4px 35px;" 
+ onclick="get_selection('en','ml');">
+Highlight text and click here for speech</button>
+<div id="content">
+<h2>JPEG</h2>
+
+<p>The most popular among the image formats used on the web. JPEG files are an example of a 'lossy format', This is because JPEG discards information to keep the image file size small; which means some degree of quality is also lost.</p>
+
+<p><a href="images/jpgquality.jpg" target="_blank">JPEG compression of varying levels, from highest to lowest.</a></p>
+
+<p>Pros of JPEG:</p>
+
+<ul>
+<li>24-bit color, with up to 16 million colors (2^24)these rich colors make it great for photographs that needs fine attention to color detail.</li>
+<li>Almost every digital camera can shoot and save in the JPEG format. </li>
+<li>JPEG is very web friendly because the file is smaller, which means it takes up less room, and requires less time to transfer to a sites. </li>
+<li>Most used and most widely accepted image format</li>
+</ul>
+
+<p>Cons of JPEG:</p>
+
+<ul>
+<li>They tend to discard a lot of data</li>
+<li>The stronger the compression, JPEG tends to create pixelation (see my cover image above)</li>
+<li>Cannot be animated</li>
+<li>Do not support transparency</li>
+</ul>
+
+<h2>GIF</h2>
+
+<p>GIF, short for Graphics Interchange Format, is limited to an 8 bit colour palette with only 256 colors. GIF is still a popular image format on the internet because image size is relatively small compared to other image types and are easily animatable.</p>
+
+<p><strong>Using simple GIF animations you can even simulate glasses free 3D!</strong></p>
+<img src="images/3dgif.gif" alt="Animated image in GIF format">
+
+<p>GIF compresses images in two ways: first, by reducing the number of colors in rich color images, thus reducing the number of bits per pixel. Second, GIF replaces multiple occurring colours. So instead of storing five shades of blue, it stores only one blue.</p>
+
+<p>Compared to JPEG, it is lossless and thus more effective with compressing images with a single color, but not with detailed pictures. In other words, GIF is lossless for images with 256 colors and below. So for an image with a higher colour range allot of information will be lost.</p>
+
+<p>Pros of GIF:</p>
+
+<ul>
+<li>Can support transparency</li>
+<li>Can do small animation effects</li>
+<li>'Lossless' quality–they contain the same amount of quality as the original, except of course it now only has 256 colors</li>
+<li>Great for images with limited colors, or with flat regions of color</li>
+</ul>
+
+<p>Cons of GIF:</p>
+
+<ul>
+<li>Only supports 256 colors</li>
+<li>Sometimes the file size is larger than PNG</li>
+</ul>
+
+<h2>BMP</h2>
+<img src="images/thehenge.bmp" width="50%" height="50%" alt="An example BMP image">
+
+<p>These files are large and uncompressed, but the images are rich in color, high in quality, simple and compatible in all Windows OS and programs. BMP files are also known as raster or paint images.</p>
+
+<p>BMP files are not great in my opinion being large and hard to scale</p>
+
+<p>Example BMP Image</p>
+
+<p>Pros of BMP:</p>
+
+<ul>
+<li>Works well within most Windows programs</li>
+</ul>
+
+<p>Cons of BMP:</p>
+
+<ul>
+<li>Does not scale or compress well</li>
+<li>Again, very huge image files making it not web friendly</li>
+<li>No real advantage over other image formats</li>
+</ul>
+
+<h2>TIFF</h2>
+
+<embed src="images/cage.tiff" width="50%" height="50%" alt="An example TIFF image">
+
+
+<p>TIFF is a format which isn't popular among common users, but had gained recognition in the graphic design, publishing and photography industry.</p>
+
+<p>Here is a screenshot of a TIFF image. Which may not load in your chosen browser, due to lack of industry support</p>
+
+<p>Notice the great quality and rich colors.</p>
+
+<p>TIFF is very flexible, as it can be lossy or lossless. TIFF is a rich format and supported by many imaging programs. It is capable of rendering image data with different pixel intensities.</p>
+
+<p>Pros of TIFF:</p>
+
+<ul>
+<li>Very flexible format, it supports several types of compression</li>
+<li>High quality image format, all color and data information are stored</li>
+<li>TIFF format can now be saved with layers</li>
+</ul>
+
+<p>Cons of TIFF:</p>
+
+<ul>
+<li>Very large file size–long transfer time, huge disk space consumption, and slow loading time.</li>
+<li>Prone to being insecure and open to vulnerabilities which may compromise the host system </li>
+</ul>
+
+<h2>PNG</h2>
+
+<p>PNG or (Portable Network Graphics) has been approved as a standard since 1996. It is an image format specifically designed for the web. Just like the GIF format, the PNG is saved with 256 colors maximum but it saves the color information more efficiently. It also supports an 8 bit transparency.</p>
+
+<p>The png format has substandards which support animation but thesefiles are not widely supported </p>
+
+<img src="images/animatedpng.png" alt="Animated image in PNG format">
+
+<p>PNG was actually created for the intent to replace the GIF as an image format that doesn't require a patent license. PNG can support 24 bit RGB color images and grayscale images. RGB cannot support CMYK color spaces, and is not designed for print graphics.</p>
+
+<p>Pros of PNG:</p>
+
+<ul>
+<li>Lossless, so it does not lose quality and detail after image compression</li>
+<li>In a lot ways better then GIF. To start, PNG often creates smaller file sizes than GIF</li>
+<li>Supports transparency better than GIF</li>
+</ul>
+
+<p>Cons of PNG:</p>
+
+<ul>
+<li>Not good for large images because they tend to generate a very large file, sometimes creating larger files than JPEG.</li>
+</ul>
+
+<h2>Vector Graphics</h2>
+
+<img src="images/vectors.png" alt="Images to Vectors">
+<p>There are also Vector Graphics which are not actually images in an Array of pixels sense but they are a set of mathematical operations used to draw shapes. Based on formulae means that they scale easily.</p>
+<p>If converting images to Vectors, it is best to use simple shapes</p>
+<p>My first SVG file from university Lab session</p>
+<embed class="SVG" src="images/square.svg" type="image/svg+xml"/>
+
+<br class="clearfix">
+
+</div>
+</div>
+<footer><h4>A website by </h4></footer>
+<noscript>
+	<h1>This page requires Javascript.Please enable javascript in your web browser</h1>
+	Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+ instructions on how to enable JavaScript in your web browser</a>
+</noscript>
+</body>
+</html>
+

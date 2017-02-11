@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" type="image/ico" href="images/icon.ico"/>
+<link rel="stylesheet" type="text/CSS" href="scripts/stylesheet.CSS" />
+<title>Digital Image resolution</title>
+<script type="text/javascript" src="scripts/browsercheck.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="scripts/transformations.js"></script>  
+</head>
+<body>
+<header>
+<h4>Student iD: N0443740</h4>
+</header>
+<div id="container">
+		<div id="cover">
+        	<h1>The world of Digital Images</h1>
+            <h2>A website by </h2>
+        </div>
+			<nav>
+        <div id="navbar">
+        	<ul>
+            	<li class="navlink"><a href="index.html">Home</a></li>
+				<li class="navlink"><a href="manipulations.html">Manipulations</a></li>
+                <li class="navlink"><a href="resolution.html">Resolution</a></li>
+                <li class="navlink"><a href="transformations.html">Transformations</a></li>
+                <li class="navlink subnav"><a href="#">File details</a>
+				<ol>
+                <li class="navlink"><a href="compression.html">Compression</a></li>
+				<li class="navlink"><a href="fileformats.html">File formats</a></li>
+				</ol></li>
+              <li class="navlink"><a href="references.html">References</a></li>
+            </ul>
+        </div>
+		</nav>
+		
+<button style="background:#eeeeee  
+ url(http://vozme.com/img/paper_sound32x32.gif) 
+ no-repeat left center; 
+ min-height: 35px; 
+ font-size:70%; padding:4px 4px 4px 35px;" 
+ onclick="get_selection('en','ml');">
+Highlight text and click here for speech</button>
+<div id="content">
+<p>Vector graphics are manipulated via affine transformations</p>
+
+<p>Mathematical operations on the stored image description</p> 
+
+<p>Examples include:</p>
+
+<ul>
+<li><a href="#" class="scale animatable">scaling</a> (changing an objects dimensions)</li>
+<li><a href="#" class="rotate animatable">rotating</a> (around an a defined point)</li>
+<li><a href="#" class="reflect animatable">reflecting</a> (about an edge or line)</li>
+</ul>
+
+<p><em>NOTE: the above example links may not work in out of date web browsers please follow the instructions on the bar that will have appeared at the top of this page to update your software</em></p>
+
+<p>The dimensions of Bitmapped images can be manipulated by:</p>
+
+<ul>
+<li>Changing the pixel density </li>
+<li>Changing the pixel dimensions see the page on resolution</li>
+</ul>
+
+<p>Changing pixel dimensions requires interpolation (calculation)</p>
+
+<ul>
+<li>Measuring current pixel values</li>
+<li>calculating new pixel values</li>
+<li>This process is known as Resampling a digital image</li>
+</ul>
+
+<p>This process happens all the time on an LCD TV which can only display one resolution of content known as its native resolution, all other content must be upscaled/downsampled to fit the resolution of the screen.</p>
+
+<p>This was a problem with early HD Ready TVs which ran at a resolution of 1366*768 whereas content existed at 1280*720 leading to constant upscaling required. </p>
+
+<p>In images there are mainly three different  interpolation schemes which have varying results:</p>
+
+<p>Nearest Neighbour:</p>
+
+<ul>
+<li>Simplest method which adds pixels of the same colour value</li>
+<li>Around the original pixel to scale the overall image </li>
+<li>Color of new pixel is that of the nearest pixel of the original </li>
+<li>Used by simple image editing software (magnification)</li>
+<li>Can result in jagged edges and visible blocks of pixels</li>
+</ul>
+
+<p>Bi-Linear interpolation:</p>
+
+<ul>
+<li>New pixels based on an average value of 4 pixels (2^2) </li>
+<li>In the adjacent 2 x 2 area of the original pixel</li>
+</ul>
+
+<p>Bi-Cubic interpolation:</p>
+
+<ul>
+<li>The most complex of the 3 interpolation schemes </li>
+<li>New pixels based on a mathematical operation on 16 pixels (2^3x2) </li>
+<li>In the adjacent 4 x 4 area of the original pixel </li>
+<li>Takes longer to compute (requires specialist software)</li>
+<li>Results in smoother edges but retains detail</li>
+</ul>
+
+<p>Interpolation schemes (,  University,2013)</p>
+<footer><h4>A website by </h4></footer>
+<noscript>
+	<h1>This page requires Javascript.Please enable javascript in your web browser</h1>
+	Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+ instructions on how to enable JavaScript in your web browser</a>
+</noscript>
+</body>
+</html>
+
